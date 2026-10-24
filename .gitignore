@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+.env
+ionq_jobs.json
+*_results_EXAMPLE.json
+data/

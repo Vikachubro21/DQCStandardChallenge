@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-dynamics-standard-track"
+version = "0.1.0"
+description = "Participant utilities for the standard-track quantum dynamics challenge on IonQ Forte"
+requires-python = ">=3.10"
+# Compatible ranges; requirements.txt pins the exact tested versions.
+dependencies = [
+  "qiskit~=2.6",
+  "qiskit-aer~=0.18",
+  "qiskit-ionq>=1.1,<2",
+  "scipy>=1.11",
+  "matplotlib>=3.8,<4",
+  "numpy>=1.26,<3",
+  "pylatexenc>=2.10",
+  "jupyter>=1.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "nbconvert>=7"]
+
+[tool.setuptools.packages.find]
+include = ["dynamics_challenge*"]
