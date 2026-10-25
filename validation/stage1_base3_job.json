@@ -1,0 +1,145 @@
+{
+  "job_id": "01a170c7-d179-72c1-adbb-edb18dcdfb71",
+  "backend": "ionq_simulator",
+  "noise_model": "forte-1",
+  "model": "base-3",
+  "shots": 500,
+  "selected_stage": "stage1",
+  "circuit_count": 12,
+  "submitted_at": "2026-10-25T01:58:26+00:00",
+  "confirmed_status": "INITIALIZING",
+  "metadata": [
+    {
+      "configuration": "stage1_order3",
+      "stage": "stage1",
+      "model": "base-3",
+      "order": 3,
+      "time": 0.25,
+      "time_index": 0,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 500
+    },
+    {
+      "configuration": "stage1_order3",
+      "stage": "stage1",
+      "model": "base-3",
+      "order": 3,
+      "time": 0.5,
+      "time_index": 1,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 500
+    },
+    {
+      "configuration": "stage1_order3",
+      "stage": "stage1",
+      "model": "base-3",
+      "order": 3,
+      "time": 0.75,
+      "time_index": 2,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 500
+    },
+    {
+      "configuration": "stage1_order3",
+      "stage": "stage1",
+      "model": "base-3",
+      "order": 3,
+      "time": 1.0,
+      "time_index": 3,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 500
+    },
+    {
+      "configuration": "stage1_order3",
+      "stage": "stage1",
+      "model": "base-3",
+      "order": 3,
+      "time": 1.25,
+      "time_index": 4,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 500
+    },
+    {
+      "configuration": "stage1_order3",
+      "stage": "stage1",
+      "model": "base-3",
+      "order": 3,
+      "time": 1.5,
+      "time_index": 5,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 500
+    },
+    {
+      "configuration": "stage1_order3",
+      "stage": "stage1",
+      "model": "base-3",
+      "order": 3,
+      "time": 1.75,
+      "time_index": 6,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 500
+    },
+    {
+      "configuration": "stage1_order3",
+      "stage": "stage1",
+      "model": "base-3",
+      "order": 3,
+      "time": 2.0,
+      "time_index": 7,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 500
+    },
+    {
+      "configuration": "stage1_order3",
+      "stage": "stage1",
+      "model": "base-3",
+      "order": 3,
+      "time": 2.25,
+      "time_index": 8,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 500
+    },
+    {
+      "configuration": "stage1_order3",
+      "stage": "stage1",
+      "model": "base-3",
+      "order": 3,
+      "time": 2.5,
+      "time_index": 9,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 500
+    },
+    {
+      "configuration": "stage1_order3",
+      "stage": "stage1",
+      "model": "base-3",
+      "order": 3,
+      "time": 2.75,
+      "time_index": 10,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 500
+    },
+    {
+      "configuration": "stage1_order3",
+      "stage": "stage1",
+      "model": "base-3",
+      "order": 3,
+      "time": 3.0,
+      "time_index": 11,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 500
+    }
+  ]
+}
