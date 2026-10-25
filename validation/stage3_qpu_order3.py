@@ -49,20 +49,26 @@ def circuit_entries(stage: str, folds: tuple[int, ...]) -> list[dict]:
 def validate_configuration(stage: str, folds: tuple[int, ...], total_shots: int,
                            entries: list[dict]) -> int:
     """Validate the exact paid-job configuration before any submission."""
-    if stage != "stage3":
-        raise ValueError("this paid submission must target full Stage 3")
     if folds != (1, 3):
         raise ValueError(f"expected folds (1, 3), received {folds}")
     if total_shots != 600:
         raise ValueError(f"expected 600 total shots, received {total_shots}")
-    if len(entries) != 12:
-        raise ValueError(f"expected 12 circuits, received {len(entries)}")
+    expected = {
+        "stage1": (12, 12),
+        "stage2": (12, 12),
+        "stage3": (6, 36),
+    }
+    expected_times, expected_qubits = expected[stage]
+    if len(entries) != expected_times * len(folds):
+        raise ValueError(
+            f"expected {expected_times * len(folds)} circuits, received {len(entries)}"
+        )
     if {entry["fold"] for entry in entries} != {1, 3}:
         raise ValueError("batch contains an unexpected ZNE fold")
-    if {entry["time_index"] for entry in entries} != set(range(6)):
-        raise ValueError("batch does not contain all six Stage 3 time points")
-    if any(entry["circuit"].num_qubits != 36 for entry in entries):
-        raise ValueError("batch contains a circuit that is not the full 36-qubit Stage 3 problem")
+    if {entry["time_index"] for entry in entries} != set(range(expected_times)):
+        raise ValueError(f"batch does not contain all {expected_times} time points")
+    if any(entry["circuit"].num_qubits != expected_qubits for entry in entries):
+        raise ValueError(f"batch contains a circuit that is not the {expected_qubits}-qubit problem")
     if total_shots % len(folds):
         raise ValueError("total shots must divide evenly across the selected folds")
     return total_shots // len(folds)
