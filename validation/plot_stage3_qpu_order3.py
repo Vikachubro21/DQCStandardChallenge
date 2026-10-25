@@ -57,6 +57,7 @@ def main() -> None:
     zne_values = fold_values @ weights
     zne_errors = np.sqrt(np.sum((fold_errors * weights) ** 2, axis=1))
     fold1_values = fold_values[:, 0]
+    fold3_values = fold_values[:, 1]
     fold1_errors = fold_errors[:, 0]
     # Display/report uncertainties conservatively at twice the shot-noise SE.
     displayed_zne_errors = 2.0 * zne_errors
@@ -76,6 +77,8 @@ def main() -> None:
         "zne_errors": displayed_zne_errors.tolist(),
         "fold1_values": fold1_values.tolist(),
         "fold1_errors": displayed_fold1_errors.tolist(),
+        "fold3_values": fold3_values.tolist(),
+        "fold3_errors": (2.0 * fold_errors[:, 1]).tolist(),
         "retained_fraction": [
             [grouped[index][fold]["retained_fraction"] for fold in (1, 3)]
             for index in range(len(times))
@@ -109,11 +112,10 @@ def main() -> None:
     )
     axis.plot(dense_times, smooth, color="tab:blue", linewidth=1.8,
               label="smoothed connecting line")
-    axis.errorbar(
-        times, fold1_values, yerr=displayed_fold1_errors, fmt="s--",
-        color="tab:orange", capsize=4, markersize=4,
-        label="fold 1 + symmetry (no ZNE)",
-    )
+    axis.plot(times, fold1_values, "s--", color="tab:orange", markersize=4,
+              label="fold 1 + symmetry (no ZNE)")
+    axis.plot(times, fold3_values, "d--", color="tab:red", markersize=4,
+              label="fold 3 + symmetry (no ZNE)")
     axis.set_title("Full Stage 3 6×6 QPU: order 3 with ZNE folds 1,3")
     axis.set_xlabel("time t")
     axis.set_ylabel("magnetization")
