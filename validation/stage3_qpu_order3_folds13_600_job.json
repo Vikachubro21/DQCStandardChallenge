@@ -1,0 +1,102 @@
+{
+  "job_id": "01a17348-ec92-752a-ac4f-11edbbff70d2",
+  "backend": "qpu.forte-1",
+  "model": "order3_zne_symmetry_no_debiasing",
+  "stage": "stage3",
+  "folds": [
+    1,
+    3
+  ],
+  "noise_model": null,
+  "circuit_count": 12,
+  "shots_per_fold": 300,
+  "total_shots_per_time": 600,
+  "submitted_at": "2026-10-25T13:38:41+00:00",
+  "metadata": [
+    {
+      "configuration": "order3_zne_symmetry_no_debiasing",
+      "time": 0.25,
+      "time_index": 0,
+      "fold": 1,
+      "shots": 300
+    },
+    {
+      "configuration": "order3_zne_symmetry_no_debiasing",
+      "time": 0.25,
+      "time_index": 0,
+      "fold": 3,
+      "shots": 300
+    },
+    {
+      "configuration": "order3_zne_symmetry_no_debiasing",
+      "time": 0.5,
+      "time_index": 1,
+      "fold": 1,
+      "shots": 300
+    },
+    {
+      "configuration": "order3_zne_symmetry_no_debiasing",
+      "time": 0.5,
+      "time_index": 1,
+      "fold": 3,
+      "shots": 300
+    },
+    {
+      "configuration": "order3_zne_symmetry_no_debiasing",
+      "time": 0.75,
+      "time_index": 2,
+      "fold": 1,
+      "shots": 300
+    },
+    {
+      "configuration": "order3_zne_symmetry_no_debiasing",
+      "time": 0.75,
+      "time_index": 2,
+      "fold": 3,
+      "shots": 300
+    },
+    {
+      "configuration": "order3_zne_symmetry_no_debiasing",
+      "time": 1.0,
+      "time_index": 3,
+      "fold": 1,
+      "shots": 300
+    },
+    {
+      "configuration": "order3_zne_symmetry_no_debiasing",
+      "time": 1.0,
+      "time_index": 3,
+      "fold": 3,
+      "shots": 300
+    },
+    {
+      "configuration": "order3_zne_symmetry_no_debiasing",
+      "time": 1.25,
+      "time_index": 4,
+      "fold": 1,
+      "shots": 300
+    },
+    {
+      "configuration": "order3_zne_symmetry_no_debiasing",
+      "time": 1.25,
+      "time_index": 4,
+      "fold": 3,
+      "shots": 300
+    },
+    {
+      "configuration": "order3_zne_symmetry_no_debiasing",
+      "time": 1.5,
+      "time_index": 5,
+      "fold": 1,
+      "shots": 300
+    },
+    {
+      "configuration": "order3_zne_symmetry_no_debiasing",
+      "time": 1.5,
+      "time_index": 5,
+      "fold": 3,
+      "shots": 300
+    }
+  ],
+  "confirmed_status": "INITIALIZING"
+}
