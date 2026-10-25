@@ -1,0 +1,17 @@
+noise_model,method,rms
+coherent,ZNE,0.048154420446645
+coherent,ZNE+debias,0.0681891250457754
+coherent,ZNE+symmetry,0.043095815105879086
+coherent,ZNE+symmetry+debias,0.039119527593308986
+coherent,debias,0.07471621372077547
+coherent,none,0.08710256418054135
+coherent,symmetry,0.07357969870328307
+coherent,symmetry+debias,0.06559752724613926
+depolarizing,ZNE,0.0652241831828173
+depolarizing,ZNE+debias,0.06300411665457607
+depolarizing,ZNE+symmetry,0.05730790279429761
+depolarizing,ZNE+symmetry+debias,0.0488209786998567
+depolarizing,debias,0.07754828708229025
+depolarizing,none,0.07740989966969648
+depolarizing,symmetry,0.06379641409639114
+depolarizing,symmetry+debias,0.06514234882053892

@@ -1,0 +1,209 @@
+{
+  "stage1": {
+    "order1": {
+      "time_points": 12,
+      "folds": [
+        1,
+        3,
+        5
+      ],
+      "debiasing": false,
+      "symmetry_postprocessing": "even-parity postselection",
+      "shots": {
+        "500": {
+          "shots_per_fold_circuit": 166,
+          "circuit_count": 36,
+          "total_one_qubit_gates": 8424,
+          "total_two_qubit_gates": 7722,
+          "estimated_cost": 1034.29
+        }
+      }
+    },
+    "order2": {
+      "time_points": 12,
+      "folds": [
+        1,
+        3,
+        5
+      ],
+      "debiasing": false,
+      "symmetry_postprocessing": "even-parity postselection",
+      "shots": {
+        "500": {
+          "shots_per_fold_circuit": 166,
+          "circuit_count": 36,
+          "total_one_qubit_gates": 16848,
+          "total_two_qubit_gates": 7722,
+          "estimated_cost": 1067.1
+        }
+      }
+    },
+    "order3": {
+      "time_points": 12,
+      "folds": [
+        1,
+        3,
+        5
+      ],
+      "debiasing": false,
+      "symmetry_postprocessing": "even-parity postselection",
+      "shots": {
+        "500": {
+          "shots_per_fold_circuit": 166,
+          "circuit_count": 36,
+          "total_one_qubit_gates": 25272,
+          "total_two_qubit_gates": 23166,
+          "estimated_cost": 2493.47
+        }
+      }
+    }
+  },
+  "stage2": {
+    "order1": {
+      "time_points": 12,
+      "folds": [
+        1,
+        3,
+        5
+      ],
+      "debiasing": false,
+      "symmetry_postprocessing": "even-parity postselection",
+      "shots": {
+        "500": {
+          "shots_per_fold_circuit": 166,
+          "circuit_count": 36,
+          "total_one_qubit_gates": 62424,
+          "total_two_qubit_gates": 23166,
+          "estimated_cost": 2672.14
+        }
+      }
+    },
+    "order2": {
+      "time_points": 12,
+      "folds": [
+        1,
+        3,
+        5
+      ],
+      "debiasing": false,
+      "symmetry_postprocessing": "even-parity postselection",
+      "shots": {
+        "500": {
+          "shots_per_fold_circuit": 166,
+          "circuit_count": 36,
+          "total_one_qubit_gates": 124200,
+          "total_two_qubit_gates": 46332,
+          "estimated_cost": 5250.77
+        }
+      }
+    },
+    "order3": {
+      "time_points": 12,
+      "folds": [
+        1,
+        3,
+        5
+      ],
+      "debiasing": false,
+      "symmetry_postprocessing": "even-parity postselection",
+      "shots": {
+        "500": {
+          "shots_per_fold_circuit": 166,
+          "circuit_count": 36,
+          "total_one_qubit_gates": 371304,
+          "total_two_qubit_gates": 138996,
+          "estimated_cost": 15693.1
+        }
+      }
+    }
+  },
+  "stage3": {
+    "order1": {
+      "time_points": 6,
+      "folds": [
+        1,
+        3,
+        5
+      ],
+      "debiasing": false,
+      "symmetry_postprocessing": "even-parity postselection",
+      "shots": {
+        "300": {
+          "shots_per_fold_circuit": 100,
+          "circuit_count": 18,
+          "total_one_qubit_gates": 6804,
+          "total_two_qubit_gates": 11340,
+          "estimated_cost": 755.53
+        },
+        "1000": {
+          "shots_per_fold_circuit": 333,
+          "circuit_count": 18,
+          "total_one_qubit_gates": 6804,
+          "total_two_qubit_gates": 11340,
+          "estimated_cost": 2341.36
+        }
+      }
+    },
+    "order2": {
+      "time_points": 6,
+      "folds": [
+        1,
+        3,
+        5
+      ],
+      "debiasing": false,
+      "symmetry_postprocessing": "even-parity postselection",
+      "shots": {
+        "300": {
+          "shots_per_fold_circuit": 100,
+          "circuit_count": 18,
+          "total_one_qubit_gates": 13608,
+          "total_two_qubit_gates": 11340,
+          "estimated_cost": 773.46
+        },
+        "1000": {
+          "shots_per_fold_circuit": 333,
+          "circuit_count": 18,
+          "total_one_qubit_gates": 13608,
+          "total_two_qubit_gates": 11340,
+          "estimated_cost": 2408.97
+        }
+      }
+    },
+    "order3": {
+      "time_points": 6,
+      "folds": [
+        1,
+        3,
+        5
+      ],
+      "debiasing": false,
+      "symmetry_postprocessing": "even-parity postselection",
+      "shots": {
+        "300": {
+          "shots_per_fold_circuit": 100,
+          "circuit_count": 18,
+          "total_one_qubit_gates": 20412,
+          "total_two_qubit_gates": 34020,
+          "estimated_cost": 2111.31
+        },
+        "1000": {
+          "shots_per_fold_circuit": 333,
+          "circuit_count": 18,
+          "total_one_qubit_gates": 20412,
+          "total_two_qubit_gates": 34020,
+          "estimated_cost": 7001.11
+        }
+      }
+    }
+  },
+  "assumptions": {
+    "source_notebook": "notebooks/Standard_Track_Challenge.ipynb",
+    "section": "5. Spending the budget wisely",
+    "rate_1q": 3e-05,
+    "rate_2q": 0.0006,
+    "minimum_circuit_cost": 20.0,
+    "api_calls": false,
+    "method": "max(minimum, shots * (1Q gates * rate_1q + 2Q gates * rate_2q))"
+  }
+}

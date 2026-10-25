@@ -1,0 +1,26 @@
+{
+  "job_id": "01a170d2-1fbc-762b-84fd-26a482cbd1fe",
+  "backend": "ionq_simulator",
+  "noise_model": "forte-1",
+  "model": "zne",
+  "selected_fold": 5,
+  "selected_time": 8,
+  "shots": 166,
+  "selected_stage": "stage2",
+  "circuit_count": 1,
+  "submitted_at": "2026-10-25T02:09:41+00:00",
+  "confirmed_status": "INITIALIZING",
+  "metadata": [
+    {
+      "configuration": "stage2_order3",
+      "stage": "stage2",
+      "model": "zne",
+      "order": 3,
+      "time": 2.25,
+      "time_index": 8,
+      "fold": 5,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 166
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "team_id": "local-validation",
+  "stage": "stage2",
+  "points": [
+    {
+      "time": 0.25,
+      "value": 0.297858548209608,
+      "uncertainty": 0.03420315339175456,
+      "job_ids": [
+        "local-stage2"
+      ]
+    },
+    {
+      "time": 0.5,
+      "value": -0.49061934784395966,
+      "uncertainty": 0.029287983859523067,
+      "job_ids": [
+        "local-stage2"
+      ]
+    },
+    {
+      "time": 0.75,
+      "value": -0.10216174170576697,
+      "uncertainty": 0.033837859144017574,
+      "job_ids": [
+        "local-stage2"
+      ]
+    },
+    {
+      "time": 1.0,
+      "value": 0.28865909705325793,
+      "uncertainty": 0.034956122467690295,
+      "job_ids": [
+        "local-stage2"
+      ]
+    },
+    {
+      "time": 1.25,
+      "value": 0.02522675736961454,
+      "uncertainty": 0.03447528508695112,
+      "job_ids": [
+        "local-stage2"
+      ]
+    },
+    {
+      "time": 1.5,
+      "value": -0.16647788565264304,
+      "uncertainty": 0.031092171590107066,
+      "job_ids": [
+        "local-stage2"
+      ]
+    },
+    {
+      "time": 1.75,
+      "value": 0.021613240220291843,
+      "uncertainty": 0.03412592324766688,
+      "job_ids": [
+        "local-stage2"
+      ]
+    },
+    {
+      "time": 2.0,
+      "value": 0.09717118983217227,
+      "uncertainty": 0.03904455424894818,
+      "job_ids": [
+        "local-stage2"
+      ]
+    },
+    {
+      "time": 2.25,
+      "value": -0.08386424337176737,
+      "uncertainty": 0.03753101846434666,
+      "job_ids": [
+        "local-stage2"
+      ]
+    },
+    {
+      "time": 2.5,
+      "value": -0.10830336087826732,
+      "uncertainty": 0.0347979088736348,
+      "job_ids": [
+        "local-stage2"
+      ]
+    },
+    {
+      "time": 2.75,
+      "value": 0.06448964930019695,
+      "uncertainty": 0.03288009681640509,
+      "job_ids": [
+        "local-stage2"
+      ]
+    },
+    {
+      "time": 3.0,
+      "value": -0.04641758092125744,
+      "uncertainty": 0.03585174077219767,
+      "job_ids": [
+        "local-stage2"
+      ]
+    }
+  ],
+  "method": "Local forte-like simulation using ZNE folds 1,3,5, even-parity symmetry postselection, and Pauli-frame software debiasing; uncertainties are propagated postselected shot-noise errors."
+}

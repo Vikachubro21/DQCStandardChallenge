@@ -1,0 +1,12 @@
+{
+  "order2": {
+    "raw_rms": 0.06718128985344689,
+    "combined_rms": 0.055800497161807884,
+    "improvement_fraction": 0.16940420043237803
+  },
+  "order3": {
+    "raw_rms": 0.09864286050175702,
+    "combined_rms": 0.04431325686385661,
+    "improvement_fraction": 0.5507707639615003
+  }
+}

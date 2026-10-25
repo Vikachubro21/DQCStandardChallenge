@@ -1,0 +1,400 @@
+{
+  "backend": "qpu.forte-1",
+  "model": "order3_zne_symmetry_no_debiasing",
+  "stage": "stage3",
+  "folds": [
+    1,
+    3
+  ],
+  "circuits": 12,
+  "total_shots_per_time": 600,
+  "shots_per_fold": 300,
+  "estimated_total_cost": 4308.32,
+  "unit": "usd",
+  "rate_card": {
+    "id": "01922aaa-694a-7aa5-b8b4-2d0a7ebce307",
+    "rates": [
+      {
+        "sku": "forte_on_demand",
+        "unit": "gates",
+        "cost_1q_gate": 0.000128,
+        "cost_2q_gate": 0.000873,
+        "job_cost_minimum": 20.0836
+      }
+    ]
+  },
+  "estimates": [
+    {
+      "estimate_context": {
+        "organization": "edu.umd",
+        "project": "Duke Hackathon 2026",
+        "backend": "qpu.forte-1",
+        "qubits": 36,
+        "shots": 300,
+        "1q_gates": 108,
+        "2q_gates": 180,
+        "error_mitigation": false,
+        "type": "ionq.circuit.v1",
+        "session": false
+      },
+      "estimated_at": "2026-10-25T13:37:18.301Z",
+      "estimated_unit": "usd",
+      "rate_card": {
+        "id": "01922aaa-694a-7aa5-b8b4-2d0a7ebce307",
+        "rates": [
+          {
+            "sku": "forte_on_demand",
+            "unit": "gates",
+            "cost_1q_gate": 0.000128,
+            "cost_2q_gate": 0.000873,
+            "job_cost_minimum": 20.0836
+          }
+        ]
+      },
+      "estimated_total_cost": 51.29,
+      "estimated_execution_time": 59829,
+      "current_predicted_queue_time": 610143
+    },
+    {
+      "estimate_context": {
+        "organization": "edu.umd",
+        "project": "Duke Hackathon 2026",
+        "backend": "qpu.forte-1",
+        "qubits": 36,
+        "shots": 300,
+        "1q_gates": 324,
+        "2q_gates": 540,
+        "error_mitigation": false,
+        "type": "ionq.circuit.v1",
+        "session": false
+      },
+      "estimated_at": "2026-10-25T13:37:18.481Z",
+      "estimated_unit": "usd",
+      "rate_card": {
+        "id": "01922aaa-694a-7aa5-b8b4-2d0a7ebce307",
+        "rates": [
+          {
+            "sku": "forte_on_demand",
+            "unit": "gates",
+            "cost_1q_gate": 0.000128,
+            "cost_2q_gate": 0.000873,
+            "job_cost_minimum": 20.0836
+          }
+        ]
+      },
+      "estimated_total_cost": 153.87,
+      "estimated_execution_time": 174337,
+      "current_predicted_queue_time": 610143
+    },
+    {
+      "estimate_context": {
+        "organization": "edu.umd",
+        "project": "Duke Hackathon 2026",
+        "backend": "qpu.forte-1",
+        "qubits": 36,
+        "shots": 300,
+        "1q_gates": 216,
+        "2q_gates": 360,
+        "error_mitigation": false,
+        "type": "ionq.circuit.v1",
+        "session": false
+      },
+      "estimated_at": "2026-10-25T13:37:18.702Z",
+      "estimated_unit": "usd",
+      "rate_card": {
+        "id": "01922aaa-694a-7aa5-b8b4-2d0a7ebce307",
+        "rates": [
+          {
+            "sku": "forte_on_demand",
+            "unit": "gates",
+            "cost_1q_gate": 0.000128,
+            "cost_2q_gate": 0.000873,
+            "job_cost_minimum": 20.0836
+          }
+        ]
+      },
+      "estimated_total_cost": 102.58,
+      "estimated_execution_time": 117083,
+      "current_predicted_queue_time": 610143
+    },
+    {
+      "estimate_context": {
+        "organization": "edu.umd",
+        "project": "Duke Hackathon 2026",
+        "backend": "qpu.forte-1",
+        "qubits": 36,
+        "shots": 300,
+        "1q_gates": 648,
+        "2q_gates": 1080,
+        "error_mitigation": false,
+        "type": "ionq.circuit.v1",
+        "session": false
+      },
+      "estimated_at": "2026-10-25T13:37:18.970Z",
+      "estimated_unit": "usd",
+      "rate_card": {
+        "id": "01922aaa-694a-7aa5-b8b4-2d0a7ebce307",
+        "rates": [
+          {
+            "sku": "forte_on_demand",
+            "unit": "gates",
+            "cost_1q_gate": 0.000128,
+            "cost_2q_gate": 0.000873,
+            "job_cost_minimum": 20.0836
+          }
+        ]
+      },
+      "estimated_total_cost": 307.74,
+      "estimated_execution_time": 346099,
+      "current_predicted_queue_time": 610143
+    },
+    {
+      "estimate_context": {
+        "organization": "edu.umd",
+        "project": "Duke Hackathon 2026",
+        "backend": "qpu.forte-1",
+        "qubits": 36,
+        "shots": 300,
+        "1q_gates": 324,
+        "2q_gates": 540,
+        "error_mitigation": false,
+        "type": "ionq.circuit.v1",
+        "session": false
+      },
+      "estimated_at": "2026-10-25T13:37:19.185Z",
+      "estimated_unit": "usd",
+      "rate_card": {
+        "id": "01922aaa-694a-7aa5-b8b4-2d0a7ebce307",
+        "rates": [
+          {
+            "sku": "forte_on_demand",
+            "unit": "gates",
+            "cost_1q_gate": 0.000128,
+            "cost_2q_gate": 0.000873,
+            "job_cost_minimum": 20.0836
+          }
+        ]
+      },
+      "estimated_total_cost": 153.87,
+      "estimated_execution_time": 174337,
+      "current_predicted_queue_time": 610143
+    },
+    {
+      "estimate_context": {
+        "organization": "edu.umd",
+        "project": "Duke Hackathon 2026",
+        "backend": "qpu.forte-1",
+        "qubits": 36,
+        "shots": 300,
+        "1q_gates": 972,
+        "2q_gates": 1620,
+        "error_mitigation": false,
+        "type": "ionq.circuit.v1",
+        "session": false
+      },
+      "estimated_at": "2026-10-25T13:37:19.358Z",
+      "estimated_unit": "usd",
+      "rate_card": {
+        "id": "01922aaa-694a-7aa5-b8b4-2d0a7ebce307",
+        "rates": [
+          {
+            "sku": "forte_on_demand",
+            "unit": "gates",
+            "cost_1q_gate": 0.000128,
+            "cost_2q_gate": 0.000873,
+            "job_cost_minimum": 20.0836
+          }
+        ]
+      },
+      "estimated_total_cost": 461.6,
+      "estimated_execution_time": 517861,
+      "current_predicted_queue_time": 610143
+    },
+    {
+      "estimate_context": {
+        "organization": "edu.umd",
+        "project": "Duke Hackathon 2026",
+        "backend": "qpu.forte-1",
+        "qubits": 36,
+        "shots": 300,
+        "1q_gates": 432,
+        "2q_gates": 720,
+        "error_mitigation": false,
+        "type": "ionq.circuit.v1",
+        "session": false
+      },
+      "estimated_at": "2026-10-25T13:37:19.646Z",
+      "estimated_unit": "usd",
+      "rate_card": {
+        "id": "01922aaa-694a-7aa5-b8b4-2d0a7ebce307",
+        "rates": [
+          {
+            "sku": "forte_on_demand",
+            "unit": "gates",
+            "cost_1q_gate": 0.000128,
+            "cost_2q_gate": 0.000873,
+            "job_cost_minimum": 20.0836
+          }
+        ]
+      },
+      "estimated_total_cost": 205.16,
+      "estimated_execution_time": 231591,
+      "current_predicted_queue_time": 610143
+    },
+    {
+      "estimate_context": {
+        "organization": "edu.umd",
+        "project": "Duke Hackathon 2026",
+        "backend": "qpu.forte-1",
+        "qubits": 36,
+        "shots": 300,
+        "1q_gates": 1296,
+        "2q_gates": 2160,
+        "error_mitigation": false,
+        "type": "ionq.circuit.v1",
+        "session": false
+      },
+      "estimated_at": "2026-10-25T13:37:19.844Z",
+      "estimated_unit": "usd",
+      "rate_card": {
+        "id": "01922aaa-694a-7aa5-b8b4-2d0a7ebce307",
+        "rates": [
+          {
+            "sku": "forte_on_demand",
+            "unit": "gates",
+            "cost_1q_gate": 0.000128,
+            "cost_2q_gate": 0.000873,
+            "job_cost_minimum": 20.0836
+          }
+        ]
+      },
+      "estimated_total_cost": 615.47,
+      "estimated_execution_time": 689623,
+      "current_predicted_queue_time": 610143
+    },
+    {
+      "estimate_context": {
+        "organization": "edu.umd",
+        "project": "Duke Hackathon 2026",
+        "backend": "qpu.forte-1",
+        "qubits": 36,
+        "shots": 300,
+        "1q_gates": 540,
+        "2q_gates": 900,
+        "error_mitigation": false,
+        "type": "ionq.circuit.v1",
+        "session": false
+      },
+      "estimated_at": "2026-10-25T13:37:20.036Z",
+      "estimated_unit": "usd",
+      "rate_card": {
+        "id": "01922aaa-694a-7aa5-b8b4-2d0a7ebce307",
+        "rates": [
+          {
+            "sku": "forte_on_demand",
+            "unit": "gates",
+            "cost_1q_gate": 0.000128,
+            "cost_2q_gate": 0.000873,
+            "job_cost_minimum": 20.0836
+          }
+        ]
+      },
+      "estimated_total_cost": 256.45,
+      "estimated_execution_time": 288845,
+      "current_predicted_queue_time": 610143
+    },
+    {
+      "estimate_context": {
+        "organization": "edu.umd",
+        "project": "Duke Hackathon 2026",
+        "backend": "qpu.forte-1",
+        "qubits": 36,
+        "shots": 300,
+        "1q_gates": 1620,
+        "2q_gates": 2700,
+        "error_mitigation": false,
+        "type": "ionq.circuit.v1",
+        "session": false
+      },
+      "estimated_at": "2026-10-25T13:37:20.253Z",
+      "estimated_unit": "usd",
+      "rate_card": {
+        "id": "01922aaa-694a-7aa5-b8b4-2d0a7ebce307",
+        "rates": [
+          {
+            "sku": "forte_on_demand",
+            "unit": "gates",
+            "cost_1q_gate": 0.000128,
+            "cost_2q_gate": 0.000873,
+            "job_cost_minimum": 20.0836
+          }
+        ]
+      },
+      "estimated_total_cost": 769.34,
+      "estimated_execution_time": 861386,
+      "current_predicted_queue_time": 610143
+    },
+    {
+      "estimate_context": {
+        "organization": "edu.umd",
+        "project": "Duke Hackathon 2026",
+        "backend": "qpu.forte-1",
+        "qubits": 36,
+        "shots": 300,
+        "1q_gates": 648,
+        "2q_gates": 1080,
+        "error_mitigation": false,
+        "type": "ionq.circuit.v1",
+        "session": false
+      },
+      "estimated_at": "2026-10-25T13:37:20.430Z",
+      "estimated_unit": "usd",
+      "rate_card": {
+        "id": "01922aaa-694a-7aa5-b8b4-2d0a7ebce307",
+        "rates": [
+          {
+            "sku": "forte_on_demand",
+            "unit": "gates",
+            "cost_1q_gate": 0.000128,
+            "cost_2q_gate": 0.000873,
+            "job_cost_minimum": 20.0836
+          }
+        ]
+      },
+      "estimated_total_cost": 307.74,
+      "estimated_execution_time": 346099,
+      "current_predicted_queue_time": 610143
+    },
+    {
+      "estimate_context": {
+        "organization": "edu.umd",
+        "project": "Duke Hackathon 2026",
+        "backend": "qpu.forte-1",
+        "qubits": 36,
+        "shots": 300,
+        "1q_gates": 1944,
+        "2q_gates": 3240,
+        "error_mitigation": false,
+        "type": "ionq.circuit.v1",
+        "session": false
+      },
+      "estimated_at": "2026-10-25T13:37:20.769Z",
+      "estimated_unit": "usd",
+      "rate_card": {
+        "id": "01922aaa-694a-7aa5-b8b4-2d0a7ebce307",
+        "rates": [
+          {
+            "sku": "forte_on_demand",
+            "unit": "gates",
+            "cost_1q_gate": 0.000128,
+            "cost_2q_gate": 0.000873,
+            "job_cost_minimum": 20.0836
+          }
+        ]
+      },
+      "estimated_total_cost": 923.21,
+      "estimated_execution_time": 1033148,
+      "current_predicted_queue_time": 610143
+    }
+  ]
+}

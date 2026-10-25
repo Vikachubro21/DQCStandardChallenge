@@ -1,0 +1,146 @@
+{
+  "job_id": "01a170ce-fc75-7767-ae78-2391c42e6466",
+  "backend": "ionq_simulator",
+  "noise_model": "forte-1",
+  "model": "zne",
+  "selected_fold": 1,
+  "shots": 166,
+  "selected_stage": "stage2",
+  "circuit_count": 12,
+  "submitted_at": "2026-10-25T02:06:16+00:00",
+  "confirmed_status": "INITIALIZING",
+  "metadata": [
+    {
+      "configuration": "stage2_order3",
+      "stage": "stage2",
+      "model": "zne",
+      "order": 3,
+      "time": 0.25,
+      "time_index": 0,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 166
+    },
+    {
+      "configuration": "stage2_order3",
+      "stage": "stage2",
+      "model": "zne",
+      "order": 3,
+      "time": 0.5,
+      "time_index": 1,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 166
+    },
+    {
+      "configuration": "stage2_order3",
+      "stage": "stage2",
+      "model": "zne",
+      "order": 3,
+      "time": 0.75,
+      "time_index": 2,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 166
+    },
+    {
+      "configuration": "stage2_order3",
+      "stage": "stage2",
+      "model": "zne",
+      "order": 3,
+      "time": 1.0,
+      "time_index": 3,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 166
+    },
+    {
+      "configuration": "stage2_order3",
+      "stage": "stage2",
+      "model": "zne",
+      "order": 3,
+      "time": 1.25,
+      "time_index": 4,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 166
+    },
+    {
+      "configuration": "stage2_order3",
+      "stage": "stage2",
+      "model": "zne",
+      "order": 3,
+      "time": 1.5,
+      "time_index": 5,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 166
+    },
+    {
+      "configuration": "stage2_order3",
+      "stage": "stage2",
+      "model": "zne",
+      "order": 3,
+      "time": 1.75,
+      "time_index": 6,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 166
+    },
+    {
+      "configuration": "stage2_order3",
+      "stage": "stage2",
+      "model": "zne",
+      "order": 3,
+      "time": 2.0,
+      "time_index": 7,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 166
+    },
+    {
+      "configuration": "stage2_order3",
+      "stage": "stage2",
+      "model": "zne",
+      "order": 3,
+      "time": 2.25,
+      "time_index": 8,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 166
+    },
+    {
+      "configuration": "stage2_order3",
+      "stage": "stage2",
+      "model": "zne",
+      "order": 3,
+      "time": 2.5,
+      "time_index": 9,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 166
+    },
+    {
+      "configuration": "stage2_order3",
+      "stage": "stage2",
+      "model": "zne",
+      "order": 3,
+      "time": 2.75,
+      "time_index": 10,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 166
+    },
+    {
+      "configuration": "stage2_order3",
+      "stage": "stage2",
+      "model": "zne",
+      "order": 3,
+      "time": 3.0,
+      "time_index": 11,
+      "fold": 1,
+      "requested_shots_per_time": 500,
+      "shots_per_circuit": 166
+    }
+  ]
+}
