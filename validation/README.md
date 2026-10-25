@@ -50,3 +50,26 @@ IonQ estimates are more authoritative than the local planning estimates,
 because they account for the provider's current rate card and estimate
 service. They can still differ from a final bill if compilation or service
 conditions change.
+
+## Gate counts and local planning costs
+
+The following table includes all ZNE folds `1,3,5`, with measurements excluded.
+Stage 3 refers to the full 6×6, 36-qubit problem. Costs use the local planning
+assumptions in `validation_costs.json`:
+`$0.00003` per 1Q gate-shot, `$0.00060` per 2Q gate-shot, and a `$20` minimum
+per circuit.
+
+| Stage | Order | 1Q gates | 2Q gates | Total gates | Shots | Estimated cost |
+|---|---:|---:|---:|---:|---:|---:|
+| Stage 1 | 1 | 8,424 | 7,722 | 16,146 | 500 | $1,034.29 |
+| Stage 1 | 2 | 16,848 | 7,722 | 24,570 | 500 | $1,067.10 |
+| Stage 1 | 3 | 25,272 | 23,166 | 48,438 | 500 | $2,493.47 |
+| Stage 2 | 1 | 62,424 | 23,166 | 85,590 | 500 | $2,672.14 |
+| Stage 2 | 2 | 124,200 | 46,332 | 170,532 | 500 | $5,250.77 |
+| Stage 2 | 3 | 371,304 | 138,996 | 510,300 | 500 | $15,693.10 |
+| Stage 3 6×6 | 1 | 6,804 | 11,340 | 18,144 | 300 | $755.53 |
+| Stage 3 6×6 | 1 | 6,804 | 11,340 | 18,144 | 1,000 | $2,341.36 |
+| Stage 3 6×6 | 2 | 13,608 | 11,340 | 24,948 | 300 | $773.46 |
+| Stage 3 6×6 | 2 | 13,608 | 11,340 | 24,948 | 1,000 | $2,408.97 |
+| Stage 3 6×6 | 3 | 20,412 | 34,020 | 54,432 | 300 | $2,111.31 |
+| Stage 3 6×6 | 3 | 20,412 | 34,020 | 54,432 | 1,000 | $7,001.11 |

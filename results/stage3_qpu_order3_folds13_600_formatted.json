@@ -1,0 +1,55 @@
+{
+  "team_id": "validation",
+  "stage": "stage3",
+  "points": [
+    {
+      "time": 0.25,
+      "value": 0.5915372361608919,
+      "uncertainty": 0.0409596567753424,
+      "job_ids": [
+        "01a17348-ec92-752a-ac4f-11edbbff70d2"
+      ]
+    },
+    {
+      "time": 0.5,
+      "value": 0.19598978288633456,
+      "uncertainty": 0.04658218969618151,
+      "job_ids": [
+        "01a17348-ec92-752a-ac4f-11edbbff70d2"
+      ]
+    },
+    {
+      "time": 0.75,
+      "value": 0.2064748084664329,
+      "uncertainty": 0.0401420799375624,
+      "job_ids": [
+        "01a17348-ec92-752a-ac4f-11edbbff70d2"
+      ]
+    },
+    {
+      "time": 1.0,
+      "value": 0.21519050898031777,
+      "uncertainty": 0.04726010652752493,
+      "job_ids": [
+        "01a17348-ec92-752a-ac4f-11edbbff70d2"
+      ]
+    },
+    {
+      "time": 1.25,
+      "value": 0.18420300506287768,
+      "uncertainty": 0.04859752809564708,
+      "job_ids": [
+        "01a17348-ec92-752a-ac4f-11edbbff70d2"
+      ]
+    },
+    {
+      "time": 1.5,
+      "value": 0.14294796557120504,
+      "uncertainty": 0.049273772490726814,
+      "job_ids": [
+        "01a17348-ec92-752a-ac4f-11edbbff70d2"
+      ]
+    }
+  ],
+  "method": "Order-3 full Stage 3 QPU circuits with physical ZNE folds 1 and 3, even-parity symmetry postselection, and doubled propagated shot-noise uncertainties; IonQ debiasing disabled."
+}
